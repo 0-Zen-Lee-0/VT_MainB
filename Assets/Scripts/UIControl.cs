@@ -67,4 +67,15 @@ public class UIControl : MonoBehaviour
         //show smBtn
         smCampus[cNo].SetActive(true);
     }
+
+    public void BackToHome(){
+        //show start page
+        startPage.SetActive(true);
+        foreach (GameObject sideMenu in sideMenus)
+        {
+            sideMenu.SetActive(false);
+        }
+        //hide hider
+        hider.SetActive(false);
+    }
 }
