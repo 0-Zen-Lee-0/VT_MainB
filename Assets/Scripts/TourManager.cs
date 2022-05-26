@@ -20,7 +20,7 @@ public class TourManager : MonoBehaviour
 
     void Start()
     {
-        LoadSite(26);
+        
     }
  
     void Update()

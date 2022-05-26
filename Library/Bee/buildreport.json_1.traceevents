@@ -1,0 +1,542 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1653524310306244, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653524310307417, "dur": 22877, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653524310330422, "dur": 104569, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653524310435008, "dur": 9754, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653524314241185, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653524314241387, "dur": 19017, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653524314260408, "dur": 41279, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653524314301864, "dur": 339053, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653524314640921, "dur": 719875, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653524315360798, "dur": 19565, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653524315381885, "dur": 79, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1653524314426058, "dur": 186327, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653524314426959, "dur": 114441, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653524314597287, "dur": 3886, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653524314601175, "dur": 11205, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653524314601790, "dur": 10035, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653524314616881, "dur": 1136, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1653524314615556, "dur": 2481, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653524315382406, "dur": 676, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1653524314678655, "dur":1205, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524314679865, "dur":57, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1653524314679930, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1653524314679948, "dur":392, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1653524314680361, "dur":434, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524314680795, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351293, "dur":183, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351476, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351484, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351487, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351493, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351495, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351514, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351517, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351523, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351525, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351532, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351534, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351540, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351541, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351547, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351549, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351554, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351556, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351562, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351564, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351569, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351571, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351577, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351579, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351585, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351591, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315351633, "dur":1176, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1653524314680650, "dur":212, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653524314680862, "dur":4265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653524314685134, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1653524314685250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653524314686816, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1653524314687807, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1653524314687873, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653524314687877, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1653524314688833, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1653524314688915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653524314688921, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1653524314690185, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1653524314690258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653524314690262, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1653524314691340, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653524314691561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653524314691568, "dur":98418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653524314790035, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653524314790084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653524314790090, "dur":123823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653524314913971, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653524314914027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653524314914034, "dur":18579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653524314932654, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653524314932695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653524314932702, "dur":45655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653524314978399, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653524314978446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653524314978454, "dur":21008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653524314999505, "dur":82048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653524315081557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653524315081566, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653524315082743, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653524315082782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653524315082788, "dur":71567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653524315154396, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653524315154435, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1653524315154442, "dur":87484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1653524315241966, "dur":109339, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653524314680621, "dur":235, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653524314680856, "dur":4270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653524314685134, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1653524314685264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653524314689956, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1653524314691427, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653524314691524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653524314691530, "dur":195060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653524314886643, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653524314886704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653524314886712, "dur":27196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653524314913961, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653524314914052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653524314914060, "dur":29439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653524314943540, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653524314943580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653524314943587, "dur":35372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653524314979000, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653524314979039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653524314979045, "dur":18981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653524314998071, "dur":34888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653524315032963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653524315032971, "dur":2879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653524315035903, "dur":21138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653524315057045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653524315057051, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653524315057934, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653524315057972, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653524315057979, "dur":48133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653524315106153, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653524315106192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1653524315106199, "dur":147995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1653524315254225, "dur":97075, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653524314680965, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653524314680965, "dur":4186, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653524314685154, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1653524314685328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653524314696373, "dur":25402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1653524314721818, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653524314721858, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653524314721863, "dur":62640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653524314784535, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653524314784578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653524314784584, "dur":20872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653524314805493, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653524314805532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653524314805556, "dur":109853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653524314915459, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653524314915504, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653524314915509, "dur":36901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653524314952451, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653524314952497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653524314952505, "dur":23415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653524314975962, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653524314976006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653524314976014, "dur":19660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653524314995718, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653524314995766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653524314995774, "dur":22355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653524315018173, "dur":37067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653524315055247, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653524315055279, "dur":831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653524315056147, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653524315056185, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1653524315056191, "dur":189304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1653524315245532, "dur":105779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653524314680864, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653524314680865, "dur":4287, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653524314685152, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1653524314685313, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653524314696109, "dur":25309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1653524314721468, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653524314721528, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653524314721534, "dur":67415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653524314788995, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653524314789039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653524314789047, "dur":126468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653524314915562, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653524314915607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653524314915612, "dur":45703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653524314961357, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653524314961395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653524314961403, "dur":55539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653524315016983, "dur":203246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653524315220237, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653524315220249, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1653524315221421, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1653524315221465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653524315221474, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1653524315222840, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1653524315222960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653524315222968, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1653524315223772, "dur":984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1653524315224762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653524315224772, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1653524315225640, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1653524315225681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653524315225689, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1653524315226856, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1653524315226893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653524315226899, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1653524315227898, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1653524315228008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1653524315228013, "dur":703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1653524315228754, "dur":122536, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653524314680838, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653524314680838, "dur":4282, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653524314685134, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1653524314685135, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653524314685236, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1653524314685242, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653524314685988, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1653524314687534, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1653524314687622, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653524314687741, "dur":794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1653524314688561, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1653524314688626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653524314688631, "dur":770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1653524314689427, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1653524314689490, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653524314689494, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1653524314691039, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524314691128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653524314691205, "dur":29719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524314720956, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524314721028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653524314721037, "dur":30708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524314751774, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524314751803, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653524314751807, "dur":38291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524314790140, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524314790183, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653524314790188, "dur":124874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524314915103, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524314915144, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653524314915149, "dur":23174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524314938390, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524314938435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653524314938441, "dur":23366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524314961848, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524314961887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653524314961893, "dur":24876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524314986815, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524314986855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653524314986862, "dur":26971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524315013873, "dur":63546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524315077424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653524315077432, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524315078489, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524315078529, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653524315078535, "dur":24563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524315103134, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524315103169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1653524315103175, "dur":131581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1653524315234792, "dur":116506, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653524314680718, "dur":149, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653524314680868, "dur":4269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653524314685137, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1653524314685328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653524314696682, "dur":25098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1653524314721838, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653524314721892, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653524314721897, "dur":63275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653524314785214, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653524314785264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653524314785271, "dur":18615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653524314803928, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653524314803971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653524314803977, "dur":111069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653524314915086, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653524314915134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653524314915140, "dur":24868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653524314940053, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653524314940098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653524314940104, "dur":28386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653524314968547, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653524314968593, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653524314968599, "dur":24744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653524314993388, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653524314993447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653524314993454, "dur":108819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653524315102313, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653524315102352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653524315102359, "dur":26310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653524315128711, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653524315128750, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653524315128756, "dur":95122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1653524315223918, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1653524315223982, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653524315223987, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1653524315225799, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1653524315225840, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653524315225844, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1653524315226877, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1653524315226920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1653524315226925, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1653524315227982, "dur":123330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653524314680890, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653524314680890, "dur":4292, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653524314685182, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1653524314685295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653524314691222, "dur":2220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1653524314693481, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524314693527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653524314693577, "dur":55769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524314749377, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524314749415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653524314749421, "dur":53530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524314802994, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524314803086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653524314803094, "dur":109672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524314912808, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524314912851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653524314912864, "dur":26683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524314939595, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524314939649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653524314939675, "dur":26299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524314966017, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524314966057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653524314966064, "dur":27933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524314994033, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524314994072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653524314994078, "dur":36863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524315030980, "dur":2300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524315033285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653524315033294, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524315034391, "dur":755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524315035149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653524315035156, "dur":700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524315035897, "dur":611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524315036511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653524315036518, "dur":715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524315037270, "dur":892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524315038164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653524315038171, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524315038928, "dur":19907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524315058839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653524315058847, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524315059739, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524315059782, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653524315059788, "dur":70136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524315129957, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524315129994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653524315130001, "dur":86156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1653524315216201, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1653524315216353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653524315216443, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1653524315217207, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1653524315217249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653524315217256, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1653524315218279, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1653524315218318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1653524315218324, "dur":39685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1653524315258047, "dur":93254, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653524314681136, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653524314681137, "dur":3994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653524314685134, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1653524314685276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653524314690486, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1653524314691955, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB.exe" }}
+,{ "pid":12345, "tid":8, "ts":1653524314691997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653524314692001, "dur":8214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB.exe" }}
+,{ "pid":12345, "tid":8, "ts":1653524314700240, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653524314700282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653524314700287, "dur":51221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653524314751537, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653524314751569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653524314751574, "dur":38311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653524314789943, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653524314789990, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653524314789995, "dur":124689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653524314914723, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653524314914768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653524314914773, "dur":23527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653524314938344, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653524314938387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653524314938395, "dur":31031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653524314969469, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653524314969525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653524314969532, "dur":96214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653524315065789, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653524315065832, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653524315065838, "dur":115969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653524315181848, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653524315181889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1653524315181897, "dur":169336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1653524315351262, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1653524315351264, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653524314680988, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653524314680988, "dur":4156, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653524314685146, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1653524314685288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653524314691017, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1653524314692091, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1653524314692172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653524314692234, "dur":107371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1653524314799647, "dur":105061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653524314904712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653524314904718, "dur":787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653524314905532, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653524314905563, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653524314905567, "dur":47845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653524314953452, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653524314953492, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653524314953499, "dur":25606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653524314979144, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653524314979187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653524314979192, "dur":35390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653524315014621, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653524315014662, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653524315014670, "dur":48386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653524315063096, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653524315063135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653524315063142, "dur":121873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653524315185054, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653524315185090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1653524315185097, "dur":129175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1653524315314300, "dur":37010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653524314681111, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653524314681111, "dur":4027, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653524314685140, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1653524314685258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653524314689457, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1653524314690912, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1653524314691004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653524314691010, "dur":30508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1653524314721575, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653524314721634, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653524314721639, "dur":66498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653524314788311, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653524314788369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653524314788427, "dur":125807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653524314914277, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653524314914329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653524314914336, "dur":29297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653524314943670, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653524314943775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653524314943780, "dur":74033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653524315017851, "dur":721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653524315018576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653524315018584, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653524315019779, "dur":655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653524315020437, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653524315020445, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653524315021228, "dur":24488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653524315045721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653524315045729, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653524315046558, "dur":734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653524315047295, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653524315047304, "dur":764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653524315048109, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653524315048152, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653524315048158, "dur":75683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653524315123877, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653524315123916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1653524315123924, "dur":144638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1653524315268590, "dur":82706, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653524314681084, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653524314681084, "dur":4069, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653524314685153, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1653524314685307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653524314695777, "dur":25805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1653524314721631, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653524314721682, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653524314721689, "dur":27641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653524314749368, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653524314749414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653524314749421, "dur":40435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653524314789903, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653524314789955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653524314789962, "dur":17121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653524314807125, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653524314807169, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653524314807178, "dur":105293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653524314912579, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653524314912676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653524314912683, "dur":41795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653524314954529, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653524314954572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653524314954578, "dur":25799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653524314980418, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653524314980460, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653524314980466, "dur":34451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653524315014958, "dur":58000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653524315072963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653524315072971, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653524315073827, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653524315073860, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653524315073865, "dur":68237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653524315142140, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653524315142180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653524315142187, "dur":84886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1653524315227111, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1653524315227153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1653524315227157, "dur":859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1653524315228049, "dur":123242, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653524314681226, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653524314681226, "dur":3911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653524314685137, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1653524314685265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653524314690212, "dur":1396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1653524314691652, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1653524314691713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653524314691718, "dur":95040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1653524314786803, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524314786993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653524314787000, "dur":18359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524314805415, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524314805480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653524314805487, "dur":107339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524314912869, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524314912931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653524314912937, "dur":17900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524314930878, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524314930922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653524314930930, "dur":18412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524314949384, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524314949430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653524314949439, "dur":18804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524314968287, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524314968339, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653524314968346, "dur":22881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524314991268, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524314991309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653524314991316, "dur":39741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524315031113, "dur":34488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524315065606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653524315065614, "dur":860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524315066516, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524315066555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653524315066561, "dur":59628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524315126226, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524315126266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653524315126273, "dur":29819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524315156134, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524315156186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653524315156193, "dur":30984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524315187215, "dur":75047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524315262266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1653524315262273, "dur":732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1653524315263033, "dur":88278, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1653524315353947, "dur":1415, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1653524315383299, "dur": 2995, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1653524315381854, "dur": 4510, "ph": "X", "name": "Write chrome-trace events", "args": {} },
