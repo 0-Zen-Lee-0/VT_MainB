@@ -1208,4 +1208,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: C:/Users/GIS LAB/Documents/Projects_unity/VT_MainB/VT_MainB.exe
+  playerPath: C:/Users/GIS LAB/Desktop/VirtualTour/VT_MainB.exe

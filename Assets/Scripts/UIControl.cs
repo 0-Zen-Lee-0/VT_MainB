@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIControl : MonoBehaviour
 {
@@ -8,6 +9,9 @@ public class UIControl : MonoBehaviour
     public GameObject startPage;
     //Campus Button Menu
     public GameObject campusMenu;
+    //up-down button
+    public Button btnCmenu;
+    public Sprite[] upDown;
     //Campus
     public GameObject[] smCampus;
     //Side Menu
@@ -19,7 +23,7 @@ public class UIControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+    
     }
 
     // Update is called once per frame
@@ -29,11 +33,22 @@ public class UIControl : MonoBehaviour
     }
 
     public void ShowCampusMenu(){
-        //show menu
-        campusMenu.SetActive(true);
+        if(campusMenu.activeSelf == false){
+            HideUI();
+            //show Campus Menu
+            campusMenu.SetActive(true);
+            //change sprite
+            btnCmenu.image.sprite = upDown[1];
+            hider.SetActive(true);
+        }
+        else{
+            HideUI();
+            btnCmenu.image.sprite = upDown[0];
+        }
     }
 
     public void ChooseCampus(int campusNumber){
+        btnCmenu.image.sprite = upDown[0];
         //hide start page
         startPage.SetActive(false);
         //hide smBtns
@@ -43,9 +58,10 @@ public class UIControl : MonoBehaviour
         }
         //show smBtn
         smCampus[campusNumber].SetActive(true);
-        //hide campusPanel
+        //hide Campus Menu
         campusMenu.SetActive(false);
         cNo = campusNumber;
+        hider.SetActive(false);
     }
 
     public void ShowSideMenu(int campusNumber){
@@ -57,15 +73,20 @@ public class UIControl : MonoBehaviour
         smCampus[campusNumber].SetActive(false);
     }
 
-    public void HideSideMenu(){
-        foreach (GameObject sideMenu in sideMenus)
-        {
-            sideMenu.SetActive(false);
+    public void HideUI(){
+        if(sideMenus[cNo].activeSelf == true){
+            //hide side menu
+            sideMenus[cNo].SetActive(false);
+            //show smBtn
+            smCampus[cNo].SetActive(true);
+        }
+        if(campusMenu.activeSelf == true){
+            campusMenu.SetActive(false);
+            btnCmenu.image.sprite = upDown[0];
         }
         //hide hider
         hider.SetActive(false);
-        //show smBtn
-        smCampus[cNo].SetActive(true);
+
     }
 
     public void BackToHome(){
